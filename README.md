@@ -25,6 +25,8 @@ VS Code是微软推出的一款轻量级软件编辑器，采取了和VS相同�
  * Angular 1.x Snippets：增加了AngularJs 1在.html和.js中的代码补全，安装后每次打开自动启用。
  * 待续...
  
+ [作业地址](https://august-11.github.io/mfs-fe-base-homework/)
+ 
 
 
  
