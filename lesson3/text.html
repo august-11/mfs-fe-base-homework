@@ -1,2 +1,20 @@
 <h3>何时使用&ltem&gt,&ltstrong&gt,&ltmark&gt</h3>
+<p>对不起，如果听起来很挑剔，但我即将制作大量的HTML5，我希望有人在何时使用&ltem&gt,&ltstrong&gt和&ltmark&gt标签提出了一些明确的规则。该规范暗示了一些细微的差异，但我一直在问自己是否需要祖体，斜体或明黄色高亮的文本，这让我认为我应该使用CSS来代替</p>
+<hr />
+</p>
+这是100%正确的，标记用于描述内容而不是改变外观。话虽如此：<br/>
+<a href="http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html" target="_blank"></a>
+<ul>
+<li>
+&ltstrong&gt元素表示其内容非常重要。<strong>用强元素改变一段文本的重要性不会改变句子的含义。</strong>
+</li>
+<li>&ltem&gt元素表示强调其内容的重点。<strong>强调压力的位置会改变句子的含义。</strong></li>
+<li>&ltmark&gt元素代表一个文档中的一段文本，<strong>标记或突出显示以供参考，因为它与另一个上下文相关。</strong>
+</li>
+</ul>
+<div>
+&ltmark&gt与内容，仅上下文（例如，标记与搜索匹配的内容，拼写错误的词，Web应用中选定的内容等）没有实际相关性<br />
+&ltstrong&gt表示重要的文字，但不影响含义。<br />
+&ltem&gt表示重要文本，并通过说明应重读的内容来影响内容的含义。<br />
+您可以自由使用CSS来更改所有这些元素的浏览器默认值。
 
