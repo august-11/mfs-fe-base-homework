@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form2</title>
+    </head>
+    <body>
+        <form action="/anything" method="post" >
+<div>
+    邮箱：<input type="email" required />
+</div>
+<div>
+    数字：<input type="number" min="0" max="100" step="2" />
+</div>
+<div>
+    下拉框<input list="city" name="cy"/>
+    <datalist id="city" name="datalist">
+        <option value="北京">
+        <option value="上海">
+        <option value="深圳">
+        <option value="广州">
+    </datalist>
+</div>
+<button>提交</button>
+        </form>
+    </body>
+</html>
